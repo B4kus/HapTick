@@ -1,11 +1,6 @@
-    import XCTest
-    @testable import HapTick
+import XCTest
+@testable import HapTick
+    
+final class HapTickTests: XCTestCase {
 
-    final class HapTickTests: XCTestCase {
-        func testExample() {
-            // This is an example of a functional test case.
-            // Use XCTAssert and related functions to verify your tests produce the correct
-            // results.
-            XCTAssertEqual(HapTick().text, "Hello, World!")
-        }
-    }
+}
